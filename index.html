@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>バルセロナ観光ガイド</title>
+  <!-- Google Fonts追加 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff9f9;
+      color: #4b2e2e;
+    }
+    header {
+      background: linear-gradient(to right, #f7c6c7, #fce1e4);
+      padding: 2em;
+      text-align: center;
+      color: #5e2c2c;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    nav {
+      background-color: #f9dada;
+      text-align: center;
+      padding: 1em 0;
+    }
+    nav a {
+      color: #5e2c2c;
+      text-decoration: none;
+      margin: 0 1.5em;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+    }
+    section {
+      padding: 3em 1em;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #f3b2b4;
+      padding-bottom: 0.5em;
+      font-family: 'Poppins', sans-serif;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5em;
+      justify-content: center;
+      margin-top: 1em;
+    }
+    .card {
+      background-color: #fff;
+      border: 1px solid #f0c7c7;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(243, 172, 172, 0.2);
+      overflow: hidden;
+      width: 260px;
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+    .card-content {
+      padding: 1em;
+    }
+    .card-content h3 {
+      margin-top: 0;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+    footer {
+      background-color: #f7c6c7;
+      text-align: center;
+      padding: 1.5em;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>バルセロナ観光ガイド</h1>
+    <p>ガウディ建築と地中海グルメを満喫しよう</p>
+  </header>
+
+  <nav>
+    <a href="#about">バルセロナとは？</a>
+    <a href="#food">バルセロナの食</a>
+    <a href="#architecture">建築の魅力</a>
+  </nav>
+
+  <section id="about">
+    <h2>バルセロナとは？</h2>
+    <p>
+      スペイン・カタルーニャ州の首都であり、ガウディの建築や美しい海岸線、グルメが楽しめる観光都市です。
+      芸術と情熱に満ちたこの街は、訪れる人の心を必ず魅了してくれることでしょう。
+    </p>
+  </section>
+
+  <section id="food">
+    <h2>バルセロナのグルメ</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Paella_de_marisco_01.jpg" alt="パエリア">
+        <div class="card-content">
+          <h3>パエリア</h3>
+          <p>魚介の旨みがたっぷり詰まったスペインを代表する米料理。レモンを絞ってさっぱりと。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Tapas.jpg" alt="タパス">
+        <div class="card-content">
+          <h3>タパス</h3>
+          <p>小皿で少しずつ楽しめるバルセロナの定番。ワインと一緒にどうぞ。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Pan_con_tomate.jpg" alt="パン・コン・トマテ">
+        <div class="card-content">
+          <h3>パン・コン・トマテ</h3>
+          <p>トーストしたパンにトマトをすり込み、オリーブオイルと塩で仕上げたシンプル料理。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="architecture">
+    <h2>建築の魅力</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sagrada_Familia_01.jpg" alt="サグラダ・ファミリア">
+        <div class="card-content">
+          <h3>サグラダ・ファミリア</h3>
+          <p>ガウディが設計した未完成の大聖堂。その壮麗なフォルムに圧倒されます。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Casa_Batll%C3%B3_%28Barcelona%29_05.jpg" alt="カサ・バトリョ">
+        <div class="card-content">
+          <h3>カサ・バトリョ</h3>
+          <p>色鮮やかなタイルと曲線美が特徴の幻想的なガウディ建築。内部も美術館のよう。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 バルセロナ観光ガイド｜作成：児玉志乃</p>
+  </footer>
+</body>
+</html>
